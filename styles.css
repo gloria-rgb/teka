@@ -1,20 +1,57 @@
-body{
+body{color: #000;
+    margin: 0;
+    padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: bisque;
+    background-color: bisque ;
+}
+legend{
+    font-size: x-large;
+    border: 2px solid aqua;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    margin: 2rem;
+    padding: 0;
+    font-size: 3rem;
 }
 button{
-    font-size: 1rem;
-    margin: 2rem 0;
-    background-color: red;
+    font-size: 2rem;
+    background-color:rgb(34, 69, 122);
     border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px dotted peru;
+    border-radius: 5px;
+    display: flex;
+    margin: 5rem;
+    margin-top: 0;
 }
 button:hover{
     background-color: white;
     color: #3442f2;
 }
-input{
+input :not(radio) :not(textarea){ 
     margin-bottom: 1rem;
-    width: 5rem;
+    width: 20rem;
+}
+#dero{
+    display: block;
+    margin: 5rem;
+    padding: 2.5rem;
+    border-radius: 10px;
+    margin-bottom: -2rem;
+    margin-top: 1rem;
+    background-color: aqua;
+}
+#vero{
+    display: flex;
+    margin: 5rem;
+    padding: 3.5rem;
+    border-radius: 10px;
+    background-color: aqua;
+}
+textarea{
+    display: flex;
+flex-basis: 3%;
+border: 2px solid blueviolet;
 }
